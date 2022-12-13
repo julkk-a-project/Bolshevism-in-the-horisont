@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class MapReaderTest {
 
-    File imageFile = new File("resources/europeMapProvinces.png");
+    File imageFile = new File("src/test/resources/europeMapProvinces.png");
     MapReader mapReader = new MapReader();
     World world = new World();
 
